@@ -18,8 +18,8 @@
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
-  --spacing-lg: 3rem;
-  --spacing-xl: 5rem;
+  --spacing-lg: 2.5rem;
+  --spacing-xl: 3rem;
   
   /* Container widths */
   --container-width: 1140px;
@@ -533,6 +533,32 @@ ul, ol {
 }
 
 /* News Box */
+.blog-box {
+  background-color: var(--light-bg);
+  border-radius: 8px;
+  padding: var(--spacing-md);
+  max-width: 800px;
+  margin: var(--spacing-lg) auto 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-box h4 {
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.blog-box h5 {
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.blog-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* News Box */
 .news-box {
   background-color: var(--light-bg);
   border-radius: 8px;
@@ -557,6 +583,12 @@ ul, ol {
   border-radius: 4px;
 }
 
+/* ===== BLOG SECTION ===== */
+.blog-section {
+  background-color: var(--light-bg);
+  padding: var(--spacing-lg) 0;
+}
+
 /* ===== DIE STROLCHE SECTION ===== */
 .strolche-section {
   background-color: var(--light-bg);
@@ -572,13 +604,13 @@ ul, ol {
 .groups-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-sm);
   margin-bottom: var(--spacing-lg);
 }
 
 @media (min-width: 992px) {
   .groups-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
