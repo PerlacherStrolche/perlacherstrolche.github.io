@@ -29,56 +29,56 @@
 /* ===== FONT DECLARATIONS ===== */
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-Regular.ttf') format('truetype');
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-Light.ttf') format('truetype');
+  src: url('fonts/Roboto-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-Medium.ttf') format('truetype');
+  src: url('fonts/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-Bold.ttf') format('truetype');
+  src: url('fonts/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-Italic.ttf') format('truetype');
+  src: url('fonts/Roboto-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-LightItalic.ttf') format('truetype');
+  src: url('fonts/Roboto-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-MediumItalic.ttf') format('truetype');
+  src: url('fonts/Roboto-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../public/fonts/Roboto-BoldItalic.ttf') format('truetype');
+  src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -595,7 +595,10 @@ ul, ol {
 
 .news-box h4 {
   color: var(--secondary-color);
-  margin-bottom: var(--spacing-sm);
+  margin: var(--spacing-md) 0 var(--spacing-sm);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+  display: inline-block;
 }
 
 .news-box ul {
@@ -1040,11 +1043,11 @@ ul, ol {
 }
 
 .map-container {
-  width: 100%;
+  flex: 1;
   height: 400px;
-  margin-bottom: var(--spacing-md);
   border-radius: 8px;
   overflow: hidden;
+  min-height: 400px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1055,6 +1058,7 @@ ul, ol {
 }
 
 .directions {
+  flex: 1;
   background-color: #fff;
   border-radius: 8px;
   padding: var(--spacing-md);
@@ -1071,10 +1075,6 @@ ul, ol {
     width: 100%;
     max-width: 100%;
     text-align: center;
-  }
-  
-  .map-container {
-    height: 300px;
   }
 }
 

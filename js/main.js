@@ -10,25 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
   initBackToTop();
   initSmoothScrolling();
   initCarousel();
-  // initHeaderScroll();
 });
 
-/**
- * Header Scroll Effect
- */
-// function initHeaderScroll() {
-//   const header = document.querySelector('.site-header');
-//
-//   if (!header) return;
-//
-//   window.addEventListener('scroll', function() {
-//     if (window.scrollY > 50) {
-//       header.classList.add('scrolled');
-//     } else {
-//       header.classList.remove('scrolled');
-//     }
-//   });
-// }
 
 /**
  * Mobile Menu Toggle
@@ -220,18 +203,18 @@ function initCarousel() {
   };
   
   // Hide/show arrows
-  const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
-    if (targetIndex === 0) {
-      prevButton.classList.add('is-hidden');
-      nextButton.classList.remove('is-hidden');
-    } else if (targetIndex === slides.length - 1) {
-      prevButton.classList.remove('is-hidden');
-      nextButton.classList.add('is-hidden');
-    } else {
-      prevButton.classList.remove('is-hidden');
-      nextButton.classList.remove('is-hidden');
-    }
-  };
+  // const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
+  //   if (targetIndex === 0) {
+  //     prevButton.classList.add('is-hidden');
+  //     nextButton.classList.remove('is-hidden');
+  //   } else if (targetIndex === slides.length - 1) {
+  //     prevButton.classList.remove('is-hidden');
+  //     nextButton.classList.add('is-hidden');
+  //   } else {
+  //     prevButton.classList.remove('is-hidden');
+  //     nextButton.classList.remove('is-hidden');
+  //   }
+  // };
   
   // Next button click
   nextButton.addEventListener('click', () => {
