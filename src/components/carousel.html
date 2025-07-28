@@ -1,0 +1,30 @@
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="carousel-track-container">
+            <ul class="carousel-track">
+                {{#each carousel}}
+                <li class="carousel-slide {{#if @first}}current-slide{{/if}}" data-index="{{@index}}">
+                    <img src="{{imageUrl}}" alt="Bild {{@index}}" />
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <button class="carousel-button carousel-button-left is-hidden">
+            <span class="sr-only">Vorheriges Bild</span>
+            &lt;
+        </button>
+        <button class="carousel-button carousel-button-right is-hidden">
+            <span class="sr-only">Nächstes Bild</span>
+            &gt;
+        </button>
+
+        <div class="carousel-nav">
+            {{#each carousel}}
+            <button class="carousel-indicator {{#if @first}}current-slide{{/if}}" data-index="{{@index}}">
+                <span class="sr-only">Bild {{@index}} auswählen</span>
+            </button>
+            {{/each}}
+        </div>
+    </div>
+</div>

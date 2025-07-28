@@ -1,0 +1,23 @@
+<header id="topofpage" class="site-header">
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="#home">
+                <img width="112" height="112" src="/images/strolche-logo2.jpg" alt="Perlacher Strolche Logo" />
+            </a>
+        </div>
+        <div class="site-title">
+            <h2><a href="#home">Die Perlacher Strolche e.V.</a></h2>
+        </div>
+        <nav class="main-navigation">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="menu-toggle-icon open">☰</span>
+                <span class="menu-toggle-icon close">✕</span>
+            </button>
+            <ul id="primary-menu" class="menu">
+                {{#each navigation}}
+                <li><a href="#{{anchor}}">{{name}}</a></li>
+                {{/each}}
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,16 @@
+<section id="blog" class="section blog-section">
+    <div class="container">
+        <h2 class="section-title">BLOG</h2>
+        {{#each blogs}}
+        <div class="blog-box">
+            <h4>{{category}}</h4>
+            <span class="blog-date">{{date}}</span>
+            <h3>{{title}}</h3>
+            <p>{{#newline-to-br content}}{{/newline-to-br}}</p>
+            <div class="blog-image">
+                <img src="{{imageUrl}}" alt="blog image" />
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>

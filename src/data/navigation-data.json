@@ -1,0 +1,30 @@
+[
+    {
+        "anchor": "home",
+        "name": "Home"
+    },
+    {
+        "anchor": "blog",
+        "name": "Blog"
+    },
+    {
+        "anchor": "strolche",
+        "name": "Die Strolche"
+    },
+    {
+        "anchor": "konzept",
+        "name": "Konzept"
+    },
+    {
+        "anchor": "organisation",
+        "name": "Organisation"
+    },
+    {
+        "anchor": "anmeldung",
+        "name": "Anmeldung"
+    },
+    {
+        "anchor": "kontakt",
+        "name": "Kontakt"
+    }
+]
