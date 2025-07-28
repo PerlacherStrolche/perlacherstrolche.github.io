@@ -26,6 +26,63 @@
   --container-padding: 20px;
 }
 
+/* ===== FONT DECLARATIONS ===== */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../public/fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* ===== RESET & BASE STYLES ===== */
 * {
   margin: 0;
@@ -127,7 +184,7 @@ ul, ol {
 
 /* ===== HEADER ===== */
 .site-header {
-  background-color: #fff;
+  background-color: #eafafa;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
@@ -159,7 +216,7 @@ ul, ol {
 .logo-container img {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -327,13 +384,14 @@ ul, ol {
 
 /* ===== MAIN CONTENT ===== */
 .site-main {
-  margin-top: 100px; /* Adjust based on header height */
+  /*margin-top: 100px; !* Adjust based on header height *!*/
   min-height: 500px;
 }
 
 /* ===== HOME SECTION ===== */
 .home-section {
   padding-top: 0;
+  background-color: #fff;
 }
 
 /* Carousel */
@@ -965,8 +1023,7 @@ ul, ol {
 
 /* ===== FOOTER ===== */
 .site-footer {
-  background-color: var(--dark-bg);
-  color: var(--light-text);
+  background-color: #eafafa;
   padding: var(--spacing-lg) 0;
 }
 
@@ -1028,7 +1085,7 @@ ul, ol {
 }
 
 .footer-images img {
-  max-width: 150px;
+  max-width: 100px;
   height: auto;
   border-radius: 4px;
   transition: transform 0.3s ease;
