@@ -180,6 +180,9 @@ ol {
 }
 
 .section {
+    margin-left: 100px;
+    margin-right: 100px;
+
     z-index: 10;
     padding: var(--spacing-lg) 0;
     position: relative;
@@ -400,8 +403,6 @@ ol {
 .home-section {
     padding-top: var(--spacing-lg);
     background-color: #fff;
-    /*border-top-left-radius: 15px;*/
-    /*border-top-right-radius: 15px;*/
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -410,19 +411,16 @@ ol {
     width: 100%;
     overflow: hidden;
     position: relative;
-    /*margin-bottom: var(--spacing-lg);*/
     z-index: 1;
     height: 80vh;
-    /*margin-top: 100px; !* Space for header *!*/
 }
 
 .carousel {
     position: fixed;
     width: 100%;
     height: 80vh;
-    /*top: 100px; !* Position below header *!*/
     left: 0;
-    z-index: -1; /* Place behind content */
+    z-index: -1;
 }
 
 .carousel-track-container {
@@ -536,7 +534,8 @@ ol {
 .welcome-text h2 {
     color: var(--secondary-color);
     margin-bottom: var(--spacing-md);
-    line-height: 1.5;
+    font-size: 1.43rem;
+    line-height: 2;
 }
 
 .welcome-text h1 {
@@ -1259,6 +1258,10 @@ ol {
 @media (max-width: 992px) {
     .header-container {
         flex-wrap: wrap;
+    }
+
+    .section {
+        margin: var(--spacing-md) 0;
     }
 
     .site-title h2 {
