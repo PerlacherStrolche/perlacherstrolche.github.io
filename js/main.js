@@ -10,25 +10,25 @@ document.addEventListener('DOMContentLoaded', function() {
   initBackToTop();
   initSmoothScrolling();
   initCarousel();
-  initHeaderScroll();
+  // initHeaderScroll();
 });
 
 /**
  * Header Scroll Effect
  */
-function initHeaderScroll() {
-  const header = document.querySelector('.site-header');
-  
-  if (!header) return;
-  
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 50) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
-    }
-  });
-}
+// function initHeaderScroll() {
+//   const header = document.querySelector('.site-header');
+//
+//   if (!header) return;
+//
+//   window.addEventListener('scroll', function() {
+//     if (window.scrollY > 50) {
+//       header.classList.add('scrolled');
+//     } else {
+//       header.classList.remove('scrolled');
+//     }
+//   });
+// }
 
 /**
  * Mobile Menu Toggle
