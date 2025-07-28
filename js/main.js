@@ -226,7 +226,7 @@ function initCarousel() {
     
     moveToSlide(currentSlide, nextSlide);
     updateDots(currentDot, nextDot);
-    hideShowArrows(slides, prevButton, nextButton, nextIndex);
+    // hideShowArrows(slides, prevButton, nextButton, nextIndex);
   });
   
   // Previous button click
@@ -239,7 +239,7 @@ function initCarousel() {
     
     moveToSlide(currentSlide, prevSlide);
     updateDots(currentDot, prevDot);
-    hideShowArrows(slides, prevButton, nextButton, prevIndex);
+    // hideShowArrows(slides, prevButton, nextButton, prevIndex);
   });
   
   // Dot navigation
@@ -255,7 +255,7 @@ function initCarousel() {
     
     moveToSlide(currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
-    hideShowArrows(slides, prevButton, nextButton, targetIndex);
+    // hideShowArrows(slides, prevButton, nextButton, targetIndex);
   });
   
   // Auto-advance carousel
@@ -277,7 +277,7 @@ function initCarousel() {
       
       moveToSlide(currentSlide, nextSlide);
       updateDots(currentDot, nextDot);
-      hideShowArrows(slides, prevButton, nextButton, nextIndex);
+      // hideShowArrows(slides, prevButton, nextButton, nextIndex);
     }, 5000); // Change slide every 5 seconds
   }
   
