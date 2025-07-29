@@ -28,7 +28,7 @@ function initBackToTop() {
 
     // Show/hide button based on scroll position
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 300) {
+        if (window.scrollY > 300) {
             backToTopBtn.classList.add('visible');
         } else {
             backToTopBtn.classList.remove('visible');
@@ -69,7 +69,7 @@ function initSmoothScrolling() {
 
             // Calculate header height for offset
             const headerHeight = document.querySelector('.site-header').offsetHeight;
-            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
 
             window.scrollTo({
                 top: targetPosition,

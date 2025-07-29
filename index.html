@@ -13,20 +13,18 @@
             type="text/javascript"
             src="https://cdn-cookieyes.com/client_data/40934b3500bab19d483fad05/script.js"
         ></script>
-        <link rel="dns-prefetch" href="//use.fontawesome.com" />
+        <!--        <link rel="dns-prefetch" href="//use.fontawesome.com" />-->
         <link rel="stylesheet" href="./src/css/styles.css" />
         <link rel="icon" href="/images/strolche-logo2.jpg" sizes="32x32" />
         <link rel="icon" href="/images/strolche-logo2.jpg" sizes="192x192" />
         <link rel="apple-touch-icon" href="/images/strolche-logo2.jpg" />
     </head>
     <body>
-        <a class="skip-link screen-reader-text" href="#content">Zum Inhalt wechseln</a>
-
         <!-- Header -->
         {{> header }}
 
         <!-- Main Content -->
-        <main id="content" class="site-main">
+        <main class="min-h-[500px]">
             <!-- Image Carousel -->
             {{> carousel }}
 
@@ -42,7 +40,7 @@
             <!-- Konzept Section -->
             {{> konzept }}
 
-            <!-- Organisation Section -->
+            <!-- Organization Section -->
             {{> organisation }}
 
             <!-- Anmeldung Section -->
@@ -55,14 +53,14 @@
         <!-- Footer -->
         {{> footer }}
 
-        <!-- Modals -->
-        <!-- Impressum -->
+        <!-- Modals ("Popups") -->
+        <!---- Impressum -->
         {{> impressum }}
-        <!-- Datenschutz -->
+        <!---- Datenschutz -->
         {{> datenschutz }}
 
         <!-- Back to top button -->
-        <a href="#top" class="back-to-top">
+        <a href="#" class="back-to-top">
             <span class="arrow-up">↑</span>
         </a>
 

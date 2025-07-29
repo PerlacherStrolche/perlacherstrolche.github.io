@@ -21,7 +21,7 @@ export function initMobileMenu() {
     const menuLinks = mainNav.querySelectorAll('a');
     menuLinks.forEach((link) => {
         link.addEventListener('click', function () {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 992) {
                 mainNav.classList.remove('active');
                 menuToggle.setAttribute('aria-expanded', 'false');
             }

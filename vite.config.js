@@ -1,8 +1,10 @@
+import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
     plugins: [
+        tailwindcss(),
         handlebars({
             partialDirectory: './src/components', // Directory for reusable components/partials
             context: {
