@@ -25,10 +25,10 @@ PerlacherStrolche/
 
 ## Tech Stack
 
-- **Build Tool**: Vite 5.1.6
+- **Build Tool**: Vite 7.0.6
 - **CSS Framework**: Tailwind CSS 4.1.11
 - **Template Engine**: Handlebars (via vite-plugin-handlebars)
-- **Code Formatting**: Prettier 3.3.1
+- **Code Formatting**: Prettier 3.6.2
 - **Package Manager**: bun
 
 ## Installation

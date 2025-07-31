@@ -1,18 +1,18 @@
 {
     "name": "PerlacherStrolche",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview",
-        "prettier": "prettier --write '**/*.{ts,jsx,js,css,html,json,tsx,less,scss}'"
+        "dev": "bunx --bun vite",
+        "build": "bunx --bun vite build",
+        "preview": "bunx --bun vite preview",
+        "prettier": "bunx --bun prettier --write '**/*.{ts,jsx,js,css,html,json,tsx,less,scss}'"
     },
     "devDependencies": {
-        "prettier": "^3.3.1",
+        "prettier": "^3.6.2",
         "tailwindcss": "^4.1.11",
-        "vite": "^5.1.6",
+        "vite": "^7.0.6",
         "vite-plugin-handlebars": "^2.0.0",
         "vite-plugin-html": "^3.2.2"
     },
