@@ -42,14 +42,14 @@ PerlacherStrolche/
 2. Clone the repository
 
 ```bash
-git clone <repository-url> 
-cd PerlacherStrolche
+  git clone <repository-url> 
+  cd PerlacherStrolche
 ```
 
 3. Install dependencies
 
 ```bash
-bun install
+  bun install
 ```
 
 ## Development
@@ -57,7 +57,7 @@ bun install
 Start the development server:
 
 ```bash
-bun run dev
+  bun run dev
 ```
 
 ## Build
@@ -65,7 +65,7 @@ bun run dev
 Build for production:
 
 ```bash
-bun run build
+  bun run build
 ```
 
 ## Deployment
@@ -73,11 +73,5 @@ bun run build
 Use the provided deployment script:
 
 ```bash
-./deploy.sh
+  ./deploy.sh
 ```
-
-## Features
-
-- Modern Vite-based build system
-- Tailwind CSS for styling
-- Handlebars templating support
