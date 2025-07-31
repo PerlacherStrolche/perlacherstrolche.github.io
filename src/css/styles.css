@@ -474,7 +474,7 @@ ol {
 
 .carousel {
     @apply w-full h-[50vh] fixed left-0 z-[-1];
-    @apply xl:h-[100vh] xl:mt-0;
+    @apply xl:h-screen xl:mt-0;
 }
 
 .carousel-track-container {
@@ -482,15 +482,11 @@ ol {
 }
 
 .carousel-track {
-    @apply list-none m-0 p-0 relative h-full transition-transform duration-500;
+    @apply list-none m-0 p-0 relative h-full transition-all duration-500 ease-linear;
 }
 
 .carousel-slide {
-    @apply absolute top-0 bottom-0 w-full opacity-0 transition-opacity duration-500;
-}
-
-.carousel-slide.current-slide {
-    @apply opacity-100;
+    @apply absolute top-0 bottom-0 w-full;
 }
 
 .carousel-slide img {
@@ -499,7 +495,7 @@ ol {
 
 .carousel-nav {
     @apply hidden xl:flex;
-    @apply absolute top-1/10 left-1/2 -translate-x-1/2  gap-2.5;
+    @apply absolute top-1/10 left-1/2 -translate-x-1/2 gap-2.5;
 }
 
 .carousel-indicator {
