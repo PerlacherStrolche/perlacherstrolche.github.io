@@ -11,17 +11,18 @@ export default defineConfig({
                 navigation: require('./src/data/navigation-data.json'),
                 blogs: require('./src/data/blog-data.json'),
                 carousel: require('./src/data/carousel-data.json'),
+                prices: require('./src/data/price-data.json'),
             },
             helpers: {
-                'newline-to-br': function (text) {
-                    // Replace `\n` with `<br>` for rendering
+                newlineToBr: function (text) {
+                    // Replace `\n` with `<br>`
                     return text.replace(/\n/g, '<br>');
                 },
             },
         }),
     ],
     build: {
-        outDir: 'web', // Change the output directory to 'web'
+        outDir: 'web',
         rollupOptions: {
             input: {
                 main: 'index.html',

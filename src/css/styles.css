@@ -322,7 +322,7 @@ ol {
 }
 
 .pricing-table {
-    @apply w-full border-collapse shadow-md bg-light rounded-lg overflow-hidden;
+    @apply w-full shadow-md bg-light rounded-lg overflow-hidden;
 }
 
 .pricing-table thead {
@@ -330,19 +330,15 @@ ol {
 }
 
 .pricing-table th {
-    @apply p-3 text-left;
+    @apply p-3;
 }
 
 .pricing-table tr {
     @apply hover:bg-light-offset;
 }
 
-.pricing-table tbody th {
-    @apply font-medium text-secondary;
-}
-
 .pricing-table td {
-    @apply text-center text-secondary;
+    @apply text-secondary p-3;
 }
 
 .additional-info {

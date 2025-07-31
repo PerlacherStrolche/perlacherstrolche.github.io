@@ -1,0 +1,47 @@
+[
+    {
+        "duration": "bis 2 Std.",
+        "priceKrippe": 41,
+        "priceKindergarten": 0
+    },
+    {
+        "duration": "bis 3 Std.",
+        "priceKrippe": 67,
+        "priceKindergarten": 0
+    },
+    {
+        "duration": "bis 4 Std.",
+        "priceKrippe": 145,
+        "priceKindergarten": 38
+    },
+    {
+        "duration": "bis 5 Std.",
+        "priceKrippe": 162,
+        "priceKindergarten": 48
+    },
+    {
+        "duration": "bis 6 Std.",
+        "priceKrippe": 179,
+        "priceKindergarten": 58
+    },
+    {
+        "duration": "bis 7 Std.",
+        "priceKrippe": 196,
+        "priceKindergarten": 69
+    },
+    {
+        "duration": "bis 8 Std.",
+        "priceKrippe": 213,
+        "priceKindergarten": 79
+    },
+    {
+        "duration": "bis 9 Std.",
+        "priceKrippe": 230,
+        "priceKindergarten": 90
+    },
+    {
+        "duration": "über 9 Std.",
+        "priceKrippe": 250,
+        "priceKindergarten": 100
+    }
+]

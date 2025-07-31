@@ -21,57 +21,19 @@
                 <table class="pricing-table">
                     <thead>
                         <tr>
-                            <th>Durchschnittliche tägliche Buchungszeit</th>
-                            <th>Krippe</th>
-                            <th>Kindergarten*</th>
+                            <th class="text-left">Durchschnittliche tägliche Buchungszeit</th>
+                            <th class="text-center">Krippe</th>
+                            <th class="text-center">Kindergarten*</th>
                         </tr>
                     </thead>
                     <tbody>
+                        {{#each prices}}
                         <tr>
-                            <th>bis 2 Std.</th>
-                            <td>41 €</td>
-                            <td>0</td>
+                            <td class="text-left">{{duration}}</td>
+                            <td class="text-center">{{priceKrippe}} €</td>
+                            <td class="text-center">{{priceKindergarten}} €</td>
                         </tr>
-                        <tr>
-                            <th>bis 3 Std.</th>
-                            <td>67 €</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th>bis 4 Std.</th>
-                            <td>145 €</td>
-                            <td>38 €</td>
-                        </tr>
-                        <tr>
-                            <th>bis 5 Std.</th>
-                            <td>162 €</td>
-                            <td>48 €</td>
-                        </tr>
-                        <tr>
-                            <th>bis 6 Std.</th>
-                            <td>179 €</td>
-                            <td>58 €</td>
-                        </tr>
-                        <tr>
-                            <th>bis 7 Std.</th>
-                            <td>196 €</td>
-                            <td>69 €</td>
-                        </tr>
-                        <tr>
-                            <th>bis 8 Std.</th>
-                            <td>213 €</td>
-                            <td>79 €</td>
-                        </tr>
-                        <tr>
-                            <th>bis 9 Std.</th>
-                            <td>230 €</td>
-                            <td>90 €</td>
-                        </tr>
-                        <tr>
-                            <th>über 9 Std.</th>
-                            <td>250 €</td>
-                            <td>100 €</td>
-                        </tr>
+                        {{/each}}
                     </tbody>
                 </table>
             </div>
