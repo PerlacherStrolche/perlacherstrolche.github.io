@@ -333,7 +333,7 @@ ol {
     @apply p-3;
 }
 
-.pricing-table tr {
+.pricing-table tbody tr {
     @apply hover:bg-light-offset;
 }
 
