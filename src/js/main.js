@@ -14,7 +14,21 @@ document.addEventListener('DOMContentLoaded', function () {
     initModals();
     initBackToTop();
     initSmoothScrolling();
+    initModeButton();
 });
+
+function initModeButton() {
+    const darkModeBtn = document.querySelector('.dark-mode-toggle');
+
+    if (!darkModeBtn) {
+        return;
+    }
+
+    darkModeBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementsByTagName('html')[0].classList.toggle('dark');
+    });
+}
 
 /**
  * Back to Top Button
