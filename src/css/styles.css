@@ -91,7 +91,7 @@ ol {
 }
 
 .header-container {
-    @apply flex items-center justify-between flex-wrap z-40 px-8 py-2 mx-auto max-w-7xl;
+    @apply flex items-center justify-between flex-wrap z-40 md:px-8 sm:px-4 px-1 py-2 mx-auto max-w-7xl;
 }
 
 .site-title {
