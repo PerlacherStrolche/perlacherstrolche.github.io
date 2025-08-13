@@ -1,69 +1,72 @@
 <!doctype html>
 <!--Copyright © 2025 Thomas Linke & Perlacher Strolche e.V. All rights reserved.-->
 <html lang="de">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Die Perlacher Strolche e.V. - Kinderkrippe und Kindergarten - Eltern-Kind-Initiative</title>
-        <meta
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Die Perlacher Strolche e.V. - Kinderkrippe und Kindergarten - Eltern-Kind-Initiative</title>
+    <meta
             name="description"
             content="Als Eltern-Kind-Initiative bieten wir seit über 20 Jahren eine familiäre Betreuung direkt am Pfanzeltplatz in Alt-Perlach."
-        />
-        <script
+    />
+    <script
             id="cookieyes"
             type="text/javascript"
             src="https://cdn-cookieyes.com/client_data/40934b3500bab19d483fad05/script.js"
-        ></script>
-        <link rel="stylesheet" href="./src/css/styles.css" />
-        <link rel="icon" href="/images/strolche-logo2.jpg" sizes="32x32" />
-        <link rel="icon" href="/images/strolche-logo2.jpg" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/images/strolche-logo2.jpg" />
-    </head>
-    <body>
-        <!-- Header -->
-        {{> header }}
+    ></script>
+    <link rel="stylesheet" href="./src/css/styles.css"/>
+    <link rel="icon" href="/images/strolche-logo2.jpg" sizes="32x32"/>
+    <link rel="icon" href="/images/strolche-logo2.jpg" sizes="192x192"/>
+    <link rel="apple-touch-icon" href="/images/strolche-logo2.jpg"/>
+</head>
+<body>
+<!-- Header -->
+{{> header }}
 
-        <!-- Main Content -->
-        <main class="min-h-[500px]">
-            <!-- Image Carousel -->
-            {{> carousel }}
+<!-- Main Content -->
+<main class="min-h-[500px]">
+    <!-- Image Carousel -->
+    {{> carousel }}
 
-            <!-- Home Section -->
-            {{> home }}
+    <!-- Home Section -->
+    {{> home }}
 
-            <!-- Blog Section -->
-            {{> blog }}
+    <!-- Job Section -->
+    {{> jobs }}
 
-            <!-- Die Strolche Section -->
-            {{> strolche }}
+    <!-- Blog Section -->
+    {{> blog }}
 
-            <!-- Konzept Section -->
-            {{> konzept }}
+    <!-- Die Strolche Section -->
+    {{> strolche }}
 
-            <!-- Organization Section -->
-            {{> organisation }}
+    <!-- Konzept Section -->
+    {{> konzept }}
 
-            <!-- Anmeldung Section -->
-            {{> anmeldung }}
+    <!-- Organization Section -->
+    {{> organisation }}
 
-            <!-- Kontakt Section -->
-            {{> kontakt }}
-        </main>
+    <!-- Anmeldung Section -->
+    {{> anmeldung }}
 
-        <!-- Footer -->
-        {{> footer }}
+    <!-- Kontakt Section -->
+    {{> kontakt }}
+</main>
 
-        <!-- Modals ("Popups") -->
-        <!---- Impressum -->
-        {{> impressum }}
-        <!---- Datenschutz -->
-        {{> datenschutz }}
+<!-- Footer -->
+{{> footer }}
 
-        <!-- Back to top button -->
-        <a href="#" class="back-to-top">
-            <span class="arrow-up">↑</span>
-        </a>
+<!-- Modals ("Popups") -->
+<!---- Impressum -->
+{{> impressum }}
+<!---- Datenschutz -->
+{{> datenschutz }}
 
-        <script src="./src/js/main.js" type="module"></script>
-    </body>
+<!-- Back to top button -->
+<a href="#" class="back-to-top">
+    <span class="arrow-up">↑</span>
+</a>
+
+<script src="./src/js/main.js" type="module"></script>
+</body>
 </html>

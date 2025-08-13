@@ -103,9 +103,7 @@ ol {
 }
 
 .site-title a {
-    @apply text-secondary no-underline transition-colors duration-300;
-    @apply hover:text-primary;
-    @apply dark:text-d-secondary dark:hover:text-d-primary;
+    @apply text-secondary no-underline transition-colors duration-300 hover:text-primary dark:text-d-secondary dark:hover:text-d-primary;
 }
 
 .main-navigation {
@@ -121,9 +119,7 @@ ol {
 }
 
 .main-navigation a {
-    @apply text-secondary font-medium py-2 px-0 relative no-underline transition-colors duration-300;
-    @apply hover:text-primary;
-    @apply dark:text-d-secondary dark:hover:text-d-primary;
+    @apply text-secondary font-medium py-2 px-0 relative no-underline transition-colors duration-300 hover:text-primary dark:text-d-secondary dark:hover:text-d-primary;
 }
 
 .menu-toggle {
@@ -155,10 +151,7 @@ ol {
 }
 
 .logo {
-    @apply w-10 h-10 object-cover transition-all duration-300 ease-in-out;
-    @apply xl:w-15 xl:h-15;
-    @apply hover:scale-110;
-    @apply dark:grayscale-100 dark:contrast-100 dark:brightness-100 dark:mix-blend-multiply;
+    @apply w-10 h-10 object-cover transition-all duration-300 ease-in-out xl:w-15 xl:h-15 hover:scale-110 dark:grayscale-100 dark:contrast-100 dark:brightness-100 dark:mix-blend-multiply;
 }
 
 .content-text {
@@ -188,6 +181,10 @@ ol {
 .welcome-text h2 {
     @apply text-secondary mb-8 text-2xl leading-relaxed text-center;
     @apply dark:text-d-secondary;
+}
+
+.job-box {
+    @apply rounded-lg p-8  shadow-md;
 }
 
 /* News Box */
