@@ -14,12 +14,12 @@ PerlacherStrolche/
    ├── components/      # Modular page templates (Home, Blog, Strolche, Konzept, ...)
    ├── css/             # Stylesheet
    ├── data/            # JSON Data (Navigation, Blog, Images)
-   ├── js/              # JavaScript utility functions
+   └── js/              # JavaScript utility functions
 ├── public/             # Static assets 
-   ├── images/          # Images and other downloadable files
+   └── images/          # Images and other downloadable files
 ├── index.html          # Main HTML entry point 
 ├── vite.config.js      # Vite configuration 
-├── package.json        # Project dependencies and scripts 
+└── package.json        # Project dependencies and scripts 
 ```
 
 ## Tech Stack
