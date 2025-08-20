@@ -20,7 +20,6 @@ PerlacherStrolche/
 ├── index.html          # Main HTML entry point 
 ├── vite.config.js      # Vite configuration 
 ├── package.json        # Project dependencies and scripts 
-└── deploy.sh           # Deployment script
 ```
 
 ## Tech Stack
@@ -70,8 +69,4 @@ Build for production:
 
 ## Deployment
 
-Use the provided deployment script:
-
-```bash
-  ./deploy.sh
-```
+Github Action 'CI' will build and deploy to GitHub Pages on Push to main
