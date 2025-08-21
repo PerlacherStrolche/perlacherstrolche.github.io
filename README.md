@@ -16,7 +16,8 @@ PerlacherStrolche/
    ├── data/            # JSON Data (Navigation, Blog, Images)
    └── js/              # JavaScript utility functions
 ├── public/             # Static assets 
-   └── images/          # Images and other downloadable files
+   ├── docs/            # Downloadable files
+   └── images/          # Images 
 ├── index.html          # Main HTML entry point 
 ├── vite.config.js      # Vite configuration 
 └── package.json        # Project dependencies and scripts 
